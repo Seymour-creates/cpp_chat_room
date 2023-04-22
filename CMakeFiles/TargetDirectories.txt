@@ -1,0 +1,3 @@
+/Users/romelogilbert/CLionProjects/starterProjects/freetime/chatRoom/CMakeFiles/chatRoom.dir
+/Users/romelogilbert/CLionProjects/starterProjects/freetime/chatRoom/CMakeFiles/edit_cache.dir
+/Users/romelogilbert/CLionProjects/starterProjects/freetime/chatRoom/CMakeFiles/rebuild_cache.dir
