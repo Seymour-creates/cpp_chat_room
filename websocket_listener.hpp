@@ -37,7 +37,7 @@ public:
         }
 
         // Bind to the server address
-        acceptor_bind(endpoint, ec);
+        acceptor_.bind(endpoint, ec);
         if (ec) {
             fail(ec, "bind");
             return;
@@ -46,7 +46,7 @@ public:
         // Start listening for connections
         acceptor_.listen( net::socket_base::max_listen_connections, ec );
         if (ec) {
-            fail(ec, "listen")
+            fail(ec, "listen");
             return;
         }
     }
